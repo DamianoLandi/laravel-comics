@@ -141,6 +141,10 @@ footer .social-media img {
   width: 100%;
 }
 
+.blue-text {
+  color: dodgerblue;
+}
+
 #comic-main {
   display: flex;
   justify-content: space-between;
@@ -162,4 +166,32 @@ footer .social-media img {
 }
 #comic-main .sidebar {
   flex-basis: 40%;
+}
+
+#extra-info {
+  background-color: lightgrey;
+  padding: 50px 10px;
+}
+#extra-info .container {
+  display: flex;
+}
+#extra-info .container .col {
+  flex-basis: 50%;
+  padding: 0 20px;
+}
+#extra-info .container .col h2 {
+  margin-bottom: 25px;
+  text-align: left;
+}
+#extra-info .container .col .row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+}
+#extra-info .container .col .row:first-of-type {
+  border-top: 1px solid gray;
+}
+#extra-info .container .col .row .list {
+  flex-basis: 60%;
 }
