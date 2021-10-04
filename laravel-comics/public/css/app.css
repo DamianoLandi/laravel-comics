@@ -48,9 +48,16 @@ header ul a:hover {
   border-bottom: 5px solid dodgerblue;
 }
 
-.container {
+#jumbo {
+  height: 450px;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-size: cover;
+  position: relative;
+}
+
+#info {
   height: 400px;
-  background-image: url();
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -59,14 +66,14 @@ header ul a:hover {
   justify-content: space-around;
 }
 
-.container .row {
+#info .row {
   width: 30%;
   display: flex;
   justify-content: space-around;
   text-align: left;
 }
 
-.container .row h3 {
+#info .row h3 {
   color: white;
   font-size: 20px;
   margin-top: 15px;
@@ -74,11 +81,11 @@ header ul a:hover {
   text-transform: uppercase;
 }
 
-.container .row a {
+#info .row a {
   color: #959595;
 }
 
-.container .row a:hover {
+#info .row a:hover {
   color: white;
 }
 

@@ -44,9 +44,18 @@ header{
     }
 }
 
-.container{
+#jumbo{
+    height: 450px;
+    background-image: url('../../public/img/jumbotron.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+
+
+#info{
     height: 400px;
-    background-image: url();
+    background-image: url('../../public/img/footer-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;

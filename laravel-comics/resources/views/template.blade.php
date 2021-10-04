@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <img src="../assets/img/dc-logo.png" alt="LOGO">
+        <img src="{{ asset('img/dc-logo.png') }}" alt="LOGO">
         <ul>
             <li><a href="{{ route('characters') }}">Characters</a></li>
             <li><a href="{{ route('comics') }}">Comics</a></li>
@@ -20,13 +20,15 @@
             <li><a href="{{ route('collectibles') }}">Collectibles</a></li>
         </ul>
     </header>
-
-    <div class="jumbo">
+    @yield("jumbo-content")
+    <div id="jumbo">
     </div>
+    
+    <main>
+        @yield('content')
+    </main>
 
-    @yield('content')
-
-    <div class="container">
+    <div id="info" class="container">
         <div class="row">
             <div class="col">
                 <h3>DC Comics</h3>
@@ -72,18 +74,18 @@
                 </ul>
             </div>
         </div>
-        <img src="../assets/img/dc-logo-bg.png" alt="Logo">
+        <img src="{{ asset('img/dc-logo-bg.png') }}" alt="Logo">
     </div>
 
     <footer>
         <button>Sign-up Now!</button>
         <div class="social-media">
             <span>Follow Us</span>
-            <a href="#"><img src="../assets/img/footer-facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="../assets/img/footer-twitter.png" alt="Twitter"></a>
-            <a href="#"><img src="../assets/img/footer-youtube.png" alt="YouTube"></a>
-            <a href="#"><img src="../assets/img/footer-pinterest.png" alt="Pinterest"></a>
-            <a href="#"><img src="../assets/img/footer-periscope.png" alt="Periscope"></a>
+            <a href="#"><img src="{{ asset('img/footer-facebook.png') }}" alt="Facebook"></a>
+            <a href="#"><img src="{{ asset('img/footer-twitter.png') }}" alt="Twitter"></a>
+            <a href="#"><img src="{{ asset('img/footer-youtube.png') }}" alt="YouTube"></a>
+            <a href="#"><img src="{{ asset('img/footer-pinterest.png') }}" alt="Pinterest"></a>
+            <a href="#"><img src="{{ asset('img/footer-periscope.png') }}" alt="Periscope"></a>
         </div>
     </footer>
 </body>
