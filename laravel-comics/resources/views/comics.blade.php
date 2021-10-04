@@ -11,6 +11,7 @@
                         <img src="{{$comic['thumb']}}" alt="Poster">
                     </a>
                 </div>
+                <span>{{$comic['title']}}</span>
             </div>
         
         @endforeach

@@ -1,0 +1,22 @@
+#comic-main{
+    display: flex;
+    justify-content: space-between;
+    .info{
+        flex-basis: 55%;
+        .shopping{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(40, 199, 40);
+            color: white;
+            padding: 5px 10px;
+            .price{
+                display: flex;
+                justify-content: space-between;
+                flex-basis: 70%;
+            }
+        }
+    }
+    .sidebar{
+        flex-basis: 40%;
+    }
+}

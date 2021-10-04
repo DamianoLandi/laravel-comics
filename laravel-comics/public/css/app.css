@@ -117,3 +117,49 @@ footer .social-media span {
 footer .social-media img {
   height: 40px;
 }
+
+#comics-list {
+  color: white;
+  background-color: gray;
+  padding: 50px;
+}
+#comics-list .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#comics-list .container .card {
+  flex-basis: 15%;
+}
+#comics-list .container .card .poster {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  overflow: hidden;
+}
+#comics-list .container .card .poster img {
+  width: 100%;
+}
+
+#comic-main {
+  display: flex;
+  justify-content: space-between;
+}
+#comic-main .info {
+  flex-basis: 55%;
+}
+#comic-main .info .shopping {
+  display: flex;
+  justify-content: space-between;
+  background-color: #28c728;
+  color: white;
+  padding: 5px 10px;
+}
+#comic-main .info .shopping .price {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 70%;
+}
+#comic-main .sidebar {
+  flex-basis: 40%;
+}
