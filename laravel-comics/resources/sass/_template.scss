@@ -17,6 +17,11 @@ a{
     text-decoration: none;
 }
 
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
 header{
     display: flex;
     justify-content: space-around;
@@ -46,6 +51,7 @@ header{
 
 #jumbo{
     height: 450px;
+    //background-image: url('../../public/img/jumbotron.jpg');
     background-image: url('../../public/img/jumbotron.jpg');
     background-size: cover;
     position: relative;

@@ -12,6 +12,7 @@
     <header>
         <img src="{{ asset('img/dc-logo.png') }}" alt="LOGO">
         <ul>
+        <li><a href="{{ route('home') }}">Home</a></li>
             <li><a href="{{ route('characters') }}">Characters</a></li>
             <li><a href="{{ route('comics') }}">Comics</a></li>
             <li><a href="{{ route('movies') }}">Movies</a></li>
@@ -23,12 +24,12 @@
     @yield("jumbo-content")
     <div id="jumbo">
     </div>
-    
+
     <main>
         @yield('content')
     </main>
 
-    <div id="info" class="container">
+    <div id="info">
         <div class="row">
             <div class="col">
                 <h3>DC Comics</h3>

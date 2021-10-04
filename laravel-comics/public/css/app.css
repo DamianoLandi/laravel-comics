@@ -17,6 +17,11 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
 header {
   display: flex;
   justify-content: space-around;
@@ -25,24 +30,20 @@ header {
   border-top: 25px solid #1C1C1C;
   padding-top: 5px;
 }
-
 header img {
   height: 80%;
 }
-
 header ul {
   flex-basis: 40%;
   display: flex;
   justify-content: space-around;
 }
-
 header ul a {
   color: black;
   font-size: 15px;
   text-transform: uppercase;
   padding-bottom: 33px;
 }
-
 header ul a:hover {
   color: dodgerblue;
   border-bottom: 5px solid dodgerblue;
@@ -50,14 +51,14 @@ header ul a:hover {
 
 #jumbo {
   height: 450px;
-  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-image: url("../../public/img/jumbotron.jpg");
   background-size: cover;
   position: relative;
 }
 
 #info {
   height: 400px;
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-image: url("../../public/img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -65,14 +66,12 @@ header ul a:hover {
   align-items: center;
   justify-content: space-around;
 }
-
 #info .row {
   width: 30%;
   display: flex;
   justify-content: space-around;
   text-align: left;
 }
-
 #info .row h3 {
   color: white;
   font-size: 20px;
@@ -80,11 +79,9 @@ header ul a:hover {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-
 #info .row a {
   color: #959595;
 }
-
 #info .row a:hover {
   color: white;
 }
@@ -96,7 +93,6 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-
 footer button {
   color: white;
   text-transform: uppercase;
@@ -107,21 +103,17 @@ footer button {
   padding: 15px;
   cursor: pointer;
 }
-
 footer .social-media {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 20%;
 }
-
 footer .social-media span {
   font-size: 17px;
   color: dodgerblue;
   text-transform: uppercase;
 }
-
 footer .social-media img {
   height: 40px;
 }
-
